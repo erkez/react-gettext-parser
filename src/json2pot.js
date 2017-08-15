@@ -20,10 +20,8 @@ const createTranslationsTable = (blocks, headers = {}) => {
   return {
     charset: headers.charset || 'utf-8',
     headers: {
-      'content-type': headers['content-type'] || 'text/plain; charset=utf-8',
-      'pot-creation-date': new Date().toString(),
-      'content-transfer-encoding': headers['content-transfer-encoding'] || '8bit',
-      'plural-forms': headers['plural-forms'] || 'nplurals=2; plural=(n != 1);',
+      'content-type': headers['content-type'] || 'text/plain; charset=UTF-8',
+      'content-transfer-encoding': headers['content-transfer-encoding'] || '8bit'
     },
     translations,
   };

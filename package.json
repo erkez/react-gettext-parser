@@ -1,5 +1,5 @@
 {
-  "name": "react-gettext-parser",
+  "name": "@erkez/react-gettext-parser",
   "version": "1.7.0",
   "description": "A gettext parser for React. Spits out .pot files!",
   "engines": {
@@ -41,8 +41,8 @@
   },
   "homepage": "https://github.com/laget-se/react-gettext-parser#readme",
   "dependencies": {
-    "@babel/traverse": "7.0.0-beta.44",
-    "babylon": "^7.0.0-beta.44",
+    "@babel/parser": "^7.1.6",
+    "@babel/traverse": "7.1.6",
     "colors": "^1.1.2",
     "convert-newline": "0.0.5",
     "deep-extend": "^0.4.1",
